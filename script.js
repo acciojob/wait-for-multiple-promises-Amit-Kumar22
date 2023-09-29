@@ -13,7 +13,7 @@
 
     Promise.all(promises)
       .then(() => {
-        const loadingRow = document.getElementById("loading").parentNode;
+        const loadingRow = document.getElementById("loading");
         loadingRow.parentNode.removeChild(loadingRow);
 
         const tbody = document.getElementById("output");
